@@ -45,24 +45,52 @@ body {
     justify-content: center;
 }
 
-.latest-works h2 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.latest-works h1 {
+    text-align: center;
 }
 
-.work-item {
-    width: 30%;
-    
+.latest-works {
+    height: 500px;
 }
 
 .work-container {
     display: flex;
     justify-content: space-evenly;
     width: 95%;
+    
 }
 
 .work-item img {
+    border-radius: 20px;
     width: 100%;
 }
 
+.work-item {
+    width: 30%;
+    box-shadow: 20px 20px 20px gray;
+    
+}
+
+.client-quote {
+    
+}
+
+.client-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.email {
+    width: 300px;
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 10px;    
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+}
