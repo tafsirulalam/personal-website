@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: raleway;
+}
+
+.intro h1 {
+    color: red;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mybutton {
+    color: white;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.half-slice {
+    width: 40%;
+    float: left;
+    margin-left: ;
+    margin-bottom: 5%;
+    height: 500px;
+}
+
+.half-slice img {
+    height: 100%;
+}
+
+.biography-section {
+    display: flex;
+    justify-content: center;
+}
+
+.latest-works h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.work-item {
+    width: 30%;
+    
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+.work-item img {
+    width: 100%;
+}
+
