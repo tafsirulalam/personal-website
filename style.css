@@ -1,15 +1,17 @@
 body {
     margin: 0;
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
 }
 
 .intro h1 {
     color: red;
+    font-size: 40px;
 }
 
 .header-section {
     display: flex;
     justify-content: center;
+    background-image: url(img/header-bg.png);
 }
 
 .intro {
@@ -21,17 +23,26 @@ body {
 
 .mybutton {
     color: white;
-    background-color: aqua;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 15px;
+    padding: 12px 50px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.mybutton:hover {
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    padding: 15px 53px;
+    border-radius: 5px;
     box-shadow: 0px 0px 20px gray;
+    transition: .5s;
 }
 
 .half-slice {
     width: 40%;
     float: left;
-    margin-left: ;
     margin-bottom: 5%;
     height: 500px;
 }
@@ -43,6 +54,8 @@ body {
 .biography-section {
     display: flex;
     justify-content: center;
+    background-image: url(img/biography-bg.png);
+    height: 500px;
 }
 
 .latest-works h1 {
@@ -50,6 +63,7 @@ body {
 }
 
 .latest-works {
+    background-image: url(img/latest-work-bg.png);
     height: 500px;
 }
 
@@ -83,14 +97,17 @@ body {
     margin-bottom: 50px;
 }
 
-.email {
+.email-button {
     width: 300px;
-    padding: 10px 30px;
-    background-color: orange;
+    padding: 10px 100px;
+    color: white;
+    background-image: linear-gradient(45deg, magenta, lightsalmon );
     border-radius: 10px;    
 }
 
 footer {
     text-align: center;
     height: 100px;
+    color: gray;
+    background-image: url(img/footer-bg.png);
 }
